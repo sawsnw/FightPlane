@@ -1,0 +1,25 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(D:\MyProject\FightPlane\apps\fightPlane\vs\..\..\..\tmp\)包含从另一个项目(demo.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  framework.cpp
+  background.cpp
+  enemy.cpp
+  hero.cpp
+  main.cpp
+  middleenemy.cpp
+  scene.cpp
+  singlebullet.cpp
+  smallenemy.cpp
+D:\MyProject\FightPlane\framework\framework.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\MyProject\FightPlane\apps\fightPlane\scene.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\MyProject\FightPlane\apps\fightPlane\hero.cpp(86,29): warning C4458: “life”的声明隐藏了类成员
+      D:\MyProject\FightPlane\apps\fightPlane\hero.h(15,6):
+      参见“HeroPlane::life”的声明
+  
+D:\MyProject\FightPlane\framework\framework.cpp(107,35): warning C4100: “event”: 未引用的形参
+D:\MyProject\FightPlane\framework\framework.cpp(114,35): warning C4100: “event”: 未引用的形参
+D:\MyProject\FightPlane\framework\framework.cpp(155,14): warning C4996: 'wxPen::wxPen': deprecated: use wxPENSTYLE_XXX constants
+D:\MyProject\FightPlane\apps\fightPlane\main.cpp(32,22): warning C4100: “key”: 未引用的形参
+D:\MyProject\FightPlane\apps\fightPlane\scene.cpp(134,47): warning C4456: “iter”的声明隐藏了上一个本地声明
+      D:\MyProject\FightPlane\apps\fightPlane\scene.cpp(130,40):
+      参见“iter”的声明
+  
+  vs.vcxproj -> D:\MyProject\FightPlane\exe\fightplane.exe
