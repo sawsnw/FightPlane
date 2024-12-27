@@ -1,0 +1,5 @@
+# 忽略 .ipch 文件  
+*.ipch  
+
+# 忽略 .vs 目录  
+apps/fightPlane/vs/.vs/  
