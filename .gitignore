@@ -1,5 +1,15 @@
-# 忽略 .ipch 文件  
+# 忽略 Visual Studio 的 .vs 目录  
+.vs/  
+
+# 忽略所有 .ipch 文件  
 *.ipch  
 
-# 忽略 .vs 目录  
-apps/fightPlane/vs/.vs/  
+# 忽略编译生成的文件  
+bin/  
+obj/  
+
+# 忽略日志文件  
+*.log  
+
+# 忽略临时文件  
+*.tmp  
